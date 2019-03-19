@@ -37,12 +37,14 @@ class Producers extends Component {
   };
   
 render() {
+  const rowStyle = {display: "flex", justifyContent: "center"}
+
     return (
         <Grid style={{marginTop: "50px"}}>
         {this.state.Producers.length ? (
               <List>
-                <Grid>
-                  <Grid.Row>
+                <Grid padded="vertically" style={{marginLeft: "auto", marginRight: "auto"}}>
+                  <Grid.Row style={rowStyle}>
                       <center>
                           <SearchProducers />
                       </center>

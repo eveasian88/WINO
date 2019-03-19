@@ -3,7 +3,7 @@ import API from "../utils/API";
 import { List, ListItem } from "../components/List";
 import { DataWine} from "../components/DataWineTable";
 import { Link } from "react-router-dom";
-import { Grid, Table, Segment, Image, Header, Label, Icon, Button} from "semantic-ui-react";
+import { Grid, Table, Segment, Image, Header, Label, Icon } from "semantic-ui-react";
 import Winecard from "../components/WineCard"
 
 

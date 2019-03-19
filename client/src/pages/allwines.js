@@ -132,7 +132,7 @@ class Wines extends Component {
         {/*CheckboxSidebar renders with a double layered array*/}
         <SearchWines />
         <Grid.Row>
-
+        {/* columns="equal" */}
           <Grid.Column width={3} >
    
             <CheckboxSidebar checkableArrays={filterElements} handleFilterChange={this.handleFilterChange} />
